@@ -107,7 +107,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Email Us</h3>
-                  <p className="text-gray-400">info.revquix@gmail.com</p>
+                  <p className="text-gray-400">rohitparih@gmail.com</p>
                 </div>
               </div>
 
@@ -117,7 +117,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Call Us</h3>
-                  <p className="text-gray-400">+91 7060111657</p>
+                  <p className="text-gray-400">+91 9571406506</p>
                 </div>
               </div>
 
@@ -127,7 +127,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Visit Us</h3>
-                  <p className="text-gray-400">Dehradun, UK 248001</p>
+                  <p className="text-gray-400">Ajmer, RJ 305001</p>
                 </div>
               </div>
             </div>
