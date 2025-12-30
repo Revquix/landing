@@ -28,6 +28,7 @@ export const metadata: Metadata = {
                 width: 1200,
                 height: 630,
                 alt: 'REVQUIX Software Development Agency - Custom Web & Mobile Solutions',
+                type: 'image/png',
             },
         ],
         locale: 'en_US',
