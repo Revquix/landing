@@ -195,7 +195,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              <div className="text-3xl md:text-4xl font-bold text-green-soft">3+</div>
+              <div className="text-3xl md:text-4xl font-bold text-green-soft">6+</div>
               <div className="text-gray-400">Years Experience</div>
             </motion.div>
           </motion.div>
