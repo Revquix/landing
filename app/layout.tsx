@@ -10,35 +10,39 @@ export const metadata: Metadata = {
     keywords: 'web development, app development, AI integration, tech tutoring, software development, digital agency, java development, spring boot, backend development, mobile development, fullstack development, fullstack, freelance, freelancer',
     authors: [{name: 'REVQUIX'}],
     viewport: 'width=device-width, initial-scale=1',
+    robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+    alternates: {
+        canonical: 'https://revquix.com',
+    },
     icons: {
         icon: '/favicon.ico',
     },
     openGraph: {
-        title: 'REVQUIX - Software Development Agency',
-        description:
-            'Transform your ideas into digital reality with cutting-edge web development, mobile apps, AI integration, and tech stack tutoring services.',
+        title: 'REVQUIX | Custom Software Development & AI Solutions Agency',
+        description: 'Expert software development agency specializing in custom web applications, mobile apps, AI/ML integration, and tech consulting. Transform your business with cutting-edge solutions.',
         url: 'https://revquix.com',
         siteName: 'REVQUIX',
         images: [
             {
-                url: '/og-image.png',
+                url: 'https://revquix.com/og-image.png', // Use absolute URL
                 width: 1200,
                 height: 630,
-                alt: 'REVQUIX - Digital Innovation Development',
+                alt: 'REVQUIX Software Development Agency - Custom Web & Mobile Solutions',
             },
         ],
         locale: 'en_US',
         type: 'website',
     },
 
-    // 🐦 Twitter Card
+    // Twitter Card
     twitter: {
         card: 'summary_large_image',
-        title: 'REVQUIX - Software Development Agency',
-        description:
-            'Transform your ideas into digital reality with cutting-edge web development, mobile apps, AI integration, and tech stack tutoring services.',
-        images: ['/og-image.png'],
-    },
+        title: 'REVQUIX | Custom Software Development & AI Solutions Agency',
+        description: 'Expert software development agency specializing in custom web applications, mobile apps, AI/ML integration, and tech consulting.',
+        images: ['https://revquix.com/og-image.png'], // Use absolute URL
+        creator: '@revquix', // Add if you have a Twitter handle
+        site: '@revquix',
+    }
 };
 
 export default function RootLayout({
