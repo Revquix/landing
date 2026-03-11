@@ -21,7 +21,7 @@ export default function TermsOfServicePage() {
           </Link>
           <h1 className="text-4xl sm:text-5xl font-bold">Terms of Service</h1>
           <p className="text-gray-300 leading-relaxed">
-            These Terms of Service (&quot;Terms&quot;) govern your use of the REVQUIX website and our software
+            These Terms of Service (&#34;Terms&#34;) govern your use of the REVQUIX website and our software
             development, consulting, and related services.
           </p>
           <p className="text-sm text-gray-400">Effective date: March 11, 2026</p>
